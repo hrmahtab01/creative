@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p,a,h1,h2,h3,h4,h5,h6{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+/*========================
+common heading end
+=============================*/
+/*========================
+navbar part start
+=============================*/
+
+.common_btn{
+    padding: 13px 24px;
+    background: #5956E8;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.navbar ul{
+    display: flex;
+    gap: 50px;
+}
+.navbar ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #181818;
+    transition: linear .3s;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+}
+.navbar ul li a:hover{
+    color: #5956E8 !important;
+}
+
+.navbar{
+    padding: 34px 0 51px;
+    background: #ffffff !important;
+}
+.navbar .navbar-brand img{
+    width: 115px;
+    height: 83px;
+}
+/*======================== end
+navbar part end
+=============================*/
+
+/*======================
+banner part start
+========================*/
+#banner{
+    padding: 165px 0 199px;
+    background: #5956E8;
+    margin-bottom: 83px;
+}
+.banner_text_part h1{
+    font-size: 65px;
+    line-height: 80px;
+    color: #FFFEFE;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+.banner_text_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 27px;
+    width: 542px;
+    margin-bottom: 30px;
+}
+
+.banner_btn{
+    padding: 13px 22px;
+    background: #ffffff;
+    color: #5956E8;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/*======================
+banner part end
+========================*/
+
+/*======================
+service part start 
+========================*/
+#Service{
+    margin-bottom: 100px;
+}
+.service_heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Inter Tight", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.service_heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    font-family: "Inter Tight", sans-serif;
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+  margin-bottom: 50px;
+
+}
+.service_item{
+    padding: 63px 48px;
+    background: #FFFFFF;
+    border: 2px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.service_img{
+ padding: 17px 17px;
+ background: #FFFFFF;
+ width: fit-content;
+ border: 2px solid #E3E3E3;
+ border-radius:10px ;
+ -webkit-border-radius:10px ;
+ -moz-border-radius:10px ;
+ -ms-border-radius:10px ;
+ -o-border-radius:10px ;
+ margin-bottom: 30px;
+}
+.service_item h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter Tight", sans-serif;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.service_item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter Tight", sans-serif;
+    width: 274px;
+
+}
+
+.service_item:hover{
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.75);
+}
+.service_item:hover .service_img{
+    background: #f1f1f1;;
+    
+}
+.service_item .service_img img{
+    width: 37px;
+    height: 37px;
+}
+/*======================
+service part end 
+========================*/
+
+/*======================
+portfolio part start
+========================*/
+#portfolio{
+    margin-bottom: 100px;
+}
+.portfolio_item{
+    margin-bottom: 30px;
+    position: relative;
+}
+.portfolio_item img{
+    width: 100%;
+}
+.port_hover{
+    position: absolute;
+    bottom: 19px;
+    left: 20px;
+    padding: 24px 40px;
+    background: #5956E8;
+    width: fit-content;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.portfolio_item:hover .port_hover{
+   display: block;
+}
+.port_hover h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-family: "Inter Tight", sans-serif;
+    margin-bottom: 10px;
+
+}
+.port_hover p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 27px;
+}
+.port_hover .porticon{
+    margin-left: 10px;
+}
+/*======================
+portfolio part end
+========================*/
+
+/*======================
+team port start
+========================*/
+#team{
+    margin-bottom: 142px;
+}
+.team_item img{
+    width: 100%;
+    /* width: 370px;
+    height: 444px; */
+}
+/*======================
+team part end
+========================*/
+
+/*======================
+customer part start
+========================*/
+#customer{
+    margin-bottom: 142px;
+}
+.customer_heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Inter Tight", sans-serif;
+    width: 603px;
+     margin-bottom: 20px;
+}
+.customer_heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    font-family: "Inter Tight", sans-serif;
+    line-height: 27px;
+    width: 542px;
+    margin-bottom: 50px;
+
+}
+.customer-item{
+    padding: 48px;
+    background: #FFFFFF;
+    border: 2px solid #5D5D5D;
+    width: fit-content;
+}
+.customer-item img{
+    margin-bottom: 30px;
+}
+.customer-item ul{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+.customer-item ul li{
+    color: #FBBF25;
+}
+.customer-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    font-family: "Inter Tight", sans-serif;
+    width: 274px;
+    margin-bottom: 15px;
+}
+.customer-item a .customericon{
+    width: 63px;
+    height: 46px;
+    color: 5956E8;
+}
+
+/*======================
+customer part end
+========================*/
+
+
+
+/*======================
+========================*/
+/*======================
+========================*/
+/*======================
+========================*/
+/*======================
+========================*/
