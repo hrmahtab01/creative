@@ -1,0 +1,50 @@
+@media (min-width: 320px) and (max-width: 575px){
+    .navbar .navbar-brand img {
+        width: 71px;
+        height: 52px;
+    }
+    #banner {
+        background: #5956E8;
+        margin-bottom: 83px;
+        padding: 1px 0 95px;
+        width: 100%;
+    }
+    .banner_text_part p {
+       
+        width: auto;
+       
+    }
+    .banner_img_part img {
+        width: 100%;
+    }
+    .service_heading p {
+        width: auto;
+      
+    }
+    .service_item p {
+        width: auto;
+    }
+    .customer_heading h2 {
+       
+        width: auto;
+      
+    }
+    .customer_heading p {
+       
+        width: auto;
+      
+    }
+    .customer-item p {
+      
+        width: auto;
+       
+    }
+    .customer-item {
+        margin-bottom: 20px;
+     
+    }
+    .news_item_part .paragarf {
+        width: auto;
+       
+    }
+}

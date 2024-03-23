@@ -111,6 +111,9 @@ banner part start
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+/* .banner_img_part img{
+    width: 100%;
+} */
 /*======================
 banner part end
 ========================*/
